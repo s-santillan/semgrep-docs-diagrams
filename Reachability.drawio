@@ -61,8 +61,11 @@
         <mxCell id="464uXNkpgcQ80g2qc8aH-21" value="rats-nest 5.41" style="whiteSpace=wrap;html=1;rounded=1;fontFamily=Lucida Console;" vertex="1" parent="1">
           <mxGeometry x="599" y="480" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="464uXNkpgcQ80g2qc8aH-27" value="DIRECT DEPENDENCIES" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="200" width="60" height="30" as="geometry" />
+        <mxCell id="464uXNkpgcQ80g2qc8aH-27" value="TRANSITIVE DEPENDENCIES" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="464uXNkpgcQ80g2qc8aH-28" value="DIRECT DEPENDENCIES" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="240" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
