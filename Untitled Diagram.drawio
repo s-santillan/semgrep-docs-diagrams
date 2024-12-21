@@ -4,22 +4,22 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="vW1bBTiSycET9PWHDG5I-1" value="Code finding" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vW1bBTiSycET9PWHDG5I-1" value="&lt;i&gt;&lt;b&gt;Code finding&lt;/b&gt;&lt;/i&gt;&lt;br&gt;Fix by refactoring code." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="110" y="200" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vW1bBTiSycET9PWHDG5I-2" value="Type of finding by resolution" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="vW1bBTiSycET9PWHDG5I-2" value="Type of finding by resolution" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="200" y="120" width="290" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vW1bBTiSycET9PWHDG5I-3" value="Dependency finding" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vW1bBTiSycET9PWHDG5I-3" value="&lt;i&gt;&lt;b&gt;Dependency finding&lt;/b&gt;&lt;/i&gt;&lt;br&gt;Fix by upgrading to a safe version." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="200" y="280" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vW1bBTiSycET9PWHDG5I-4" value="Dependency finding" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vW1bBTiSycET9PWHDG5I-4" value="&lt;i&gt;&lt;b&gt;Secret finding&lt;/b&gt;&lt;/i&gt;&lt;br&gt;Fix by rotating the secret." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="450" y="200" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vW1bBTiSycET9PWHDG5I-5" value="License finding" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vW1bBTiSycET9PWHDG5I-5" value="&lt;i&gt;&lt;b&gt;License finding&lt;/b&gt;&lt;/i&gt;&lt;br&gt;Fix by using a different dependency." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="360" y="280" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vW1bBTiSycET9PWHDG5I-9" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="vW1bBTiSycET9PWHDG5I-1" target="vW1bBTiSycET9PWHDG5I-2">
+        <mxCell id="vW1bBTiSycET9PWHDG5I-9" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="vW1bBTiSycET9PWHDG5I-1" target="vW1bBTiSycET9PWHDG5I-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="360" y="400" as="sourcePoint" />
             <mxPoint x="410" y="350" as="targetPoint" />
@@ -28,7 +28,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vW1bBTiSycET9PWHDG5I-10" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="vW1bBTiSycET9PWHDG5I-4" target="vW1bBTiSycET9PWHDG5I-2">
+        <mxCell id="vW1bBTiSycET9PWHDG5I-10" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="vW1bBTiSycET9PWHDG5I-4" target="vW1bBTiSycET9PWHDG5I-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="360" y="400" as="sourcePoint" />
             <mxPoint x="410" y="350" as="targetPoint" />
@@ -37,13 +37,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vW1bBTiSycET9PWHDG5I-12" value="" style="endArrow=none;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="vW1bBTiSycET9PWHDG5I-3" target="vW1bBTiSycET9PWHDG5I-2">
+        <mxCell id="vW1bBTiSycET9PWHDG5I-12" value="" style="endArrow=none;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="vW1bBTiSycET9PWHDG5I-3" target="vW1bBTiSycET9PWHDG5I-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="280" y="255" as="sourcePoint" />
             <mxPoint x="330" y="205" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vW1bBTiSycET9PWHDG5I-13" value="" style="endArrow=none;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="vW1bBTiSycET9PWHDG5I-5" target="vW1bBTiSycET9PWHDG5I-2">
+        <mxCell id="vW1bBTiSycET9PWHDG5I-13" value="" style="endArrow=none;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="vW1bBTiSycET9PWHDG5I-5" target="vW1bBTiSycET9PWHDG5I-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="360" y="230" as="sourcePoint" />
             <mxPoint x="410" y="180" as="targetPoint" />
