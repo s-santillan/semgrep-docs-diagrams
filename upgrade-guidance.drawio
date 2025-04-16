@@ -1,9 +1,51 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.0.7">
   <diagram name="Page-1" id="TqRs7oycUDw1YeJbDNWG">
-    <mxGraphModel>
+    <mxGraphModel dx="849" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="4pS6hmo7UBnZq0xErBnl-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4pS6hmo7UBnZq0xErBnl-1" target="4pS6hmo7UBnZq0xErBnl-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4pS6hmo7UBnZq0xErBnl-1" value="Semgrep detects a finding!&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;There&#39;s a vulnerability in a&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;third-party dependency.&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="79" y="80" width="201" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4pS6hmo7UBnZq0xErBnl-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4pS6hmo7UBnZq0xErBnl-2" target="4pS6hmo7UBnZq0xErBnl-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4pS6hmo7UBnZq0xErBnl-2" value="The finding has a fix by upgrading to a safe version." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="240" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4pS6hmo7UBnZq0xErBnl-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4pS6hmo7UBnZq0xErBnl-3" target="4pS6hmo7UBnZq0xErBnl-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4pS6hmo7UBnZq0xErBnl-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4pS6hmo7UBnZq0xErBnl-3" target="4pS6hmo7UBnZq0xErBnl-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4pS6hmo7UBnZq0xErBnl-3" value="Semgrep analyzes the changes between the unsafe and safe version, and how the first-party code imports and uses these changes." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="79.5" y="320" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4pS6hmo7UBnZq0xErBnl-6" value="Semgrep found no incompatibilities when upgrading. This finding is &lt;b&gt;safe to upgrade&lt;/b&gt;!" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="359.5" y="240" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4pS6hmo7UBnZq0xErBnl-9" value="Semgrep found changes in how a piece of code is implemented, such as a change in a function&#39;s name. These are called &lt;b&gt;breaking changes&lt;/b&gt;.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;Upgrading without making code changes will cause issues.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="359.5" y="360" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4pS6hmo7UBnZq0xErBnl-13" value="Semgrep creates a PR to upgrade the depdency&#39;s version." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="359.5" y="680" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4pS6hmo7UBnZq0xErBnl-14" value="Semgrep creates a PR to upgrade the dependency&#39;s version and, to resolve the breaking changes, updates all usages of the dependency. This can include changing function names or signatures." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="359.5" y="520" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4pS6hmo7UBnZq0xErBnl-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4pS6hmo7UBnZq0xErBnl-15" target="4pS6hmo7UBnZq0xErBnl-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4pS6hmo7UBnZq0xErBnl-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="4pS6hmo7UBnZq0xErBnl-15" target="4pS6hmo7UBnZq0xErBnl-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4pS6hmo7UBnZq0xErBnl-15" value="AppSec engineer checks the finding and Semgrep&#39;s analysis. Should they make a PR through Semgrep to fix the finding?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="320" width="200" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
