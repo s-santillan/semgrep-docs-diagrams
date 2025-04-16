@@ -13,13 +13,13 @@
         <mxCell id="4pS6hmo7UBnZq0xErBnl-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4pS6hmo7UBnZq0xErBnl-1" target="4pS6hmo7UBnZq0xErBnl-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4pS6hmo7UBnZq0xErBnl-1" value="Semgrep detects a finding!&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;There&#39;s a vulnerability in a&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;third-party dependency.&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4pS6hmo7UBnZq0xErBnl-1" value="Semgrep detects a &lt;b&gt;finding&lt;/b&gt;!&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;There&#39;s a vulnerability in a&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;third-party dependency.&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=light-dark(#A9C4EB,var(--ge-dark-color, #121212));" vertex="1" parent="1">
           <mxGeometry x="79" y="80" width="201" height="120" as="geometry" />
         </mxCell>
         <mxCell id="4pS6hmo7UBnZq0xErBnl-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4pS6hmo7UBnZq0xErBnl-2" target="4pS6hmo7UBnZq0xErBnl-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4pS6hmo7UBnZq0xErBnl-2" value="The finding has a fix by upgrading to a safe version." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4pS6hmo7UBnZq0xErBnl-2" value="The finding has a fix by upgrading to a safe version." style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#E6E6E6,var(--ge-dark-color, #121212));" vertex="1" parent="1">
           <mxGeometry x="80" y="240" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4pS6hmo7UBnZq0xErBnl-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4pS6hmo7UBnZq0xErBnl-3" target="4pS6hmo7UBnZq0xErBnl-6">
@@ -28,37 +28,37 @@
         <mxCell id="4pS6hmo7UBnZq0xErBnl-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4pS6hmo7UBnZq0xErBnl-3" target="4pS6hmo7UBnZq0xErBnl-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4pS6hmo7UBnZq0xErBnl-3" value="Semgrep analyzes the changes between the unsafe and safe version, and how the first-party code imports and uses these changes." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4pS6hmo7UBnZq0xErBnl-3" value="Semgrep analyzes the changes between the unsafe and safe version, and how the first-party code imports and uses these changes." style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#E6E6E6,var(--ge-dark-color, #121212));" vertex="1" parent="1">
           <mxGeometry x="79.5" y="320" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4pS6hmo7UBnZq0xErBnl-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4pS6hmo7UBnZq0xErBnl-6" target="4pS6hmo7UBnZq0xErBnl-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4pS6hmo7UBnZq0xErBnl-6" value="Semgrep found no incompatibilities when upgrading. This finding is &lt;b&gt;safe to upgrade&lt;/b&gt;!" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4pS6hmo7UBnZq0xErBnl-6" value="Semgrep found no incompatibilities when upgrading. This finding is &lt;b&gt;safe to upgrade&lt;/b&gt;!" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#E6E6E6,var(--ge-dark-color, #121212));" vertex="1" parent="1">
           <mxGeometry x="319.5" y="240" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4pS6hmo7UBnZq0xErBnl-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4pS6hmo7UBnZq0xErBnl-9" target="4pS6hmo7UBnZq0xErBnl-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4pS6hmo7UBnZq0xErBnl-9" value="Semgrep found changes in how a piece of code is implemented, such as a change in a function&#39;s name. These are called &lt;b&gt;breaking changes&lt;/b&gt;.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;Upgrading without making code changes will cause issues.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4pS6hmo7UBnZq0xErBnl-9" value="Semgrep found changes in how a piece of code is implemented, such as a change in a function&#39;s name. These are called &lt;b&gt;breaking changes&lt;/b&gt;.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;Upgrading without making code changes will cause issues.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#E6E6E6,var(--ge-dark-color, #121212));" vertex="1" parent="1">
           <mxGeometry x="319.5" y="360" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="4pS6hmo7UBnZq0xErBnl-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4pS6hmo7UBnZq0xErBnl-13" target="4pS6hmo7UBnZq0xErBnl-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4pS6hmo7UBnZq0xErBnl-13" value="For&lt;b&gt; safe-to-upgrade &lt;/b&gt;findings:&lt;br&gt;Semgrep creates a PR to upgrade the depdency&#39;s version." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4pS6hmo7UBnZq0xErBnl-13" value="For&lt;b&gt; safe-to-upgrade &lt;/b&gt;findings:&lt;br&gt;Semgrep creates a PR to upgrade the depdency&#39;s version." style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#E6E6E6,var(--ge-dark-color, #121212));" vertex="1" parent="1">
           <mxGeometry x="319.5" y="760" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4pS6hmo7UBnZq0xErBnl-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4pS6hmo7UBnZq0xErBnl-14" target="4pS6hmo7UBnZq0xErBnl-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4pS6hmo7UBnZq0xErBnl-14" value="For findings with &lt;b&gt;breaking changes&lt;/b&gt;:&lt;br&gt;&lt;br&gt;Semgrep creates a PR to upgrade the dependency&#39;s version and, to resolve the breaking changes, updates all usages of the dependency. This can include changing function names or signatures." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4pS6hmo7UBnZq0xErBnl-14" value="For findings with &lt;b&gt;breaking changes&lt;/b&gt;:&lt;br&gt;&lt;br&gt;Semgrep creates a PR to upgrade the dependency&#39;s version and, to resolve the breaking changes, updates all usages of the dependency. This can include changing function names or signatures." style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#E6E6E6,var(--ge-dark-color, #121212));" vertex="1" parent="1">
           <mxGeometry x="319" y="540" width="200" height="160" as="geometry" />
         </mxCell>
         <mxCell id="4pS6hmo7UBnZq0xErBnl-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4pS6hmo7UBnZq0xErBnl-15" target="4pS6hmo7UBnZq0xErBnl-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4pS6hmo7UBnZq0xErBnl-15" value="AppSec engineer checks the finding and Semgrep&#39;s analysis." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4pS6hmo7UBnZq0xErBnl-15" value="AppSec engineer checks the finding and Semgrep&#39;s analysis." style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#E6E6E6,var(--ge-dark-color, #121212));" vertex="1" parent="1">
           <mxGeometry x="560" y="400" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4pS6hmo7UBnZq0xErBnl-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4pS6hmo7UBnZq0xErBnl-22" target="4pS6hmo7UBnZq0xErBnl-14">
@@ -67,14 +67,13 @@
         <mxCell id="4pS6hmo7UBnZq0xErBnl-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4pS6hmo7UBnZq0xErBnl-22" target="4pS6hmo7UBnZq0xErBnl-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4pS6hmo7UBnZq0xErBnl-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4pS6hmo7UBnZq0xErBnl-22" target="4pS6hmo7UBnZq0xErBnl-28">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="4pS6hmo7UBnZq0xErBnl-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4pS6hmo7UBnZq0xErBnl-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="800" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="4pS6hmo7UBnZq0xErBnl-22" value="Should they make a PR&amp;nbsp;&lt;div&gt;through Semgrep to fix&amp;nbsp;&lt;/div&gt;&lt;div&gt;the finding?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=light-dark(#FFE599,var(--ge-dark-color, #121212));" vertex="1" parent="1">
           <mxGeometry x="560" y="560" width="200" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="4pS6hmo7UBnZq0xErBnl-28" value="For various reasons (upgrade difficulty, many conflicting libraries, prefer to use a different dependency) AppSec engineers may choose different triage actions." style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="800" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4pS6hmo7UBnZq0xErBnl-31" value="&lt;b&gt;Yes&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="510" y="592" width="60" height="30" as="geometry" />
@@ -82,11 +81,14 @@
         <mxCell id="4pS6hmo7UBnZq0xErBnl-34" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="640" y="680" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4pS6hmo7UBnZq0xErBnl-35" value="The PR is created and merged.&lt;br&gt;&lt;br&gt;This fixes the finding." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4pS6hmo7UBnZq0xErBnl-35" value="The PR is created and merged.&lt;br&gt;&lt;br&gt;&lt;b&gt;This fixes the finding.&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=light-dark(#B9E0A5,var(--ge-dark-color, #121212));" vertex="1" parent="1">
           <mxGeometry x="78.5" y="680" width="201" height="120" as="geometry" />
         </mxCell>
         <mxCell id="4pS6hmo7UBnZq0xErBnl-39" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Semgrep Upgrade Guidance&lt;/font&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="610" y="80" width="150" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="4pS6hmo7UBnZq0xErBnl-44" value="For various reasons (upgrade complexity, or preferring to use a different dependency) AppSec engineers may choose different triage actions." style="ellipse;whiteSpace=wrap;html=1;fillColor=light-dark(#B9E0A5,var(--ge-dark-color, #121212));" vertex="1" parent="1">
+          <mxGeometry x="559" y="740" width="201" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
