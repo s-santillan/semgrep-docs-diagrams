@@ -37,11 +37,11 @@
         <mxCell id="4pS6hmo7UBnZq0xErBnl-9" value="Semgrep found changes in how a piece of code is implemented, such as a change in a function&#39;s name. These are called &lt;b&gt;breaking changes&lt;/b&gt;.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;Upgrading without making code changes will cause issues.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="319.5" y="360" width="200" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="4pS6hmo7UBnZq0xErBnl-13" value="Semgrep creates a PR to upgrade the depdency&#39;s version." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="319.5" y="680" width="200" height="40" as="geometry" />
+        <mxCell id="4pS6hmo7UBnZq0xErBnl-13" value="For&lt;b&gt; safe-to-upgrade &lt;/b&gt;findings:&lt;br&gt;Semgrep creates a PR to upgrade the depdency&#39;s version." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="319.5" y="760" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="4pS6hmo7UBnZq0xErBnl-14" value="Semgrep creates a PR to upgrade the dependency&#39;s version and, to resolve the breaking changes, updates all usages of the dependency. This can include changing function names or signatures." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="319.5" y="520" width="200" height="120" as="geometry" />
+        <mxCell id="4pS6hmo7UBnZq0xErBnl-14" value="For findings with &lt;b&gt;breaking changes&lt;/b&gt;:&lt;br&gt;&lt;br&gt;Semgrep creates a PR to upgrade the dependency&#39;s version and, to resolve the breaking changes, updates all usages of the dependency. This can include changing function names or signatures." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="319" y="540" width="200" height="160" as="geometry" />
         </mxCell>
         <mxCell id="4pS6hmo7UBnZq0xErBnl-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4pS6hmo7UBnZq0xErBnl-15" target="4pS6hmo7UBnZq0xErBnl-22">
           <mxGeometry relative="1" as="geometry" />
@@ -59,10 +59,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4pS6hmo7UBnZq0xErBnl-22" value="Should they make a PR&amp;nbsp;&lt;div&gt;through Semgrep to fix&amp;nbsp;&lt;/div&gt;&lt;div&gt;the finding?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="520" width="200" height="120" as="geometry" />
+          <mxGeometry x="560" y="560" width="200" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="4pS6hmo7UBnZq0xErBnl-28" value="For various reasons (upgrade difficult, many conflicting libraries, they want to use a different dependency) they choose different triage actions." style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="760" width="200" height="80" as="geometry" />
+        <mxCell id="4pS6hmo7UBnZq0xErBnl-28" value="For various reasons (upgrade difficulty, many conflicting libraries, prefer to use a different dependency) they choose different triage actions." style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="800" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4pS6hmo7UBnZq0xErBnl-31" value="&lt;b&gt;Yes&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="592" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4pS6hmo7UBnZq0xErBnl-34" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="640" y="680" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
