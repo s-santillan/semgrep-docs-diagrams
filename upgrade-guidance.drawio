@@ -25,26 +25,44 @@
         <mxCell id="4pS6hmo7UBnZq0xErBnl-3" value="Semgrep analyzes the changes between the unsafe and safe version, and how the first-party code imports and uses these changes." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="79.5" y="320" width="200" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="4pS6hmo7UBnZq0xErBnl-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4pS6hmo7UBnZq0xErBnl-6" target="4pS6hmo7UBnZq0xErBnl-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="4pS6hmo7UBnZq0xErBnl-6" value="Semgrep found no incompatibilities when upgrading. This finding is &lt;b&gt;safe to upgrade&lt;/b&gt;!" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="359.5" y="240" width="200" height="80" as="geometry" />
+          <mxGeometry x="319.5" y="240" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4pS6hmo7UBnZq0xErBnl-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4pS6hmo7UBnZq0xErBnl-9" target="4pS6hmo7UBnZq0xErBnl-15">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4pS6hmo7UBnZq0xErBnl-9" value="Semgrep found changes in how a piece of code is implemented, such as a change in a function&#39;s name. These are called &lt;b&gt;breaking changes&lt;/b&gt;.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;Upgrading without making code changes will cause issues.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="359.5" y="360" width="200" height="120" as="geometry" />
+          <mxGeometry x="319.5" y="360" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="4pS6hmo7UBnZq0xErBnl-13" value="Semgrep creates a PR to upgrade the depdency&#39;s version." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="359.5" y="680" width="200" height="40" as="geometry" />
+          <mxGeometry x="319.5" y="680" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4pS6hmo7UBnZq0xErBnl-14" value="Semgrep creates a PR to upgrade the dependency&#39;s version and, to resolve the breaking changes, updates all usages of the dependency. This can include changing function names or signatures." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="359.5" y="520" width="200" height="120" as="geometry" />
+          <mxGeometry x="319.5" y="520" width="200" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="4pS6hmo7UBnZq0xErBnl-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4pS6hmo7UBnZq0xErBnl-15" target="4pS6hmo7UBnZq0xErBnl-14">
+        <mxCell id="4pS6hmo7UBnZq0xErBnl-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4pS6hmo7UBnZq0xErBnl-15" target="4pS6hmo7UBnZq0xErBnl-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4pS6hmo7UBnZq0xErBnl-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="4pS6hmo7UBnZq0xErBnl-15" target="4pS6hmo7UBnZq0xErBnl-13">
+        <mxCell id="4pS6hmo7UBnZq0xErBnl-15" value="AppSec engineer checks the finding and Semgrep&#39;s analysis." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="400" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4pS6hmo7UBnZq0xErBnl-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4pS6hmo7UBnZq0xErBnl-22" target="4pS6hmo7UBnZq0xErBnl-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4pS6hmo7UBnZq0xErBnl-15" value="AppSec engineer checks the finding and Semgrep&#39;s analysis. Should they make a PR through Semgrep to fix the finding?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="320" width="200" height="80" as="geometry" />
+        <mxCell id="4pS6hmo7UBnZq0xErBnl-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4pS6hmo7UBnZq0xErBnl-22" target="4pS6hmo7UBnZq0xErBnl-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4pS6hmo7UBnZq0xErBnl-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4pS6hmo7UBnZq0xErBnl-22" target="4pS6hmo7UBnZq0xErBnl-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4pS6hmo7UBnZq0xErBnl-22" value="Should they make a PR&amp;nbsp;&lt;div&gt;through Semgrep to fix&amp;nbsp;&lt;/div&gt;&lt;div&gt;the finding?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="520" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4pS6hmo7UBnZq0xErBnl-28" value="For various reasons (upgrade difficult, many conflicting libraries, they want to use a different dependency) they choose different triage actions." style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="760" width="200" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
